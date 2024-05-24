@@ -11,3 +11,11 @@ http://localhost:9090/
 
 ## To access grafana dashboard on browser
 http://localhost:8080/
+
+
+## when setting up prometheus datasource
+1. set the url to http://prometheus:9090
+
+
+## exposed app endpoint
+http://localhost:8080/customMetric
