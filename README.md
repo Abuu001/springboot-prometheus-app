@@ -10,7 +10,7 @@ list all exposed endpoint http://localhost:8080/actuator
 http://localhost:9090/
 
 ## To access grafana dashboard on browser
-http://localhost:8080/
+http://localhost:3000/
 
 
 ## when setting up prometheus datasource
