@@ -8,6 +8,8 @@ services:
       - host.docker.internal:host-gateway
     command:
       - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus/data
+      - --storage.tsdb.retention.time=1h
     #volumes:
      # - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
