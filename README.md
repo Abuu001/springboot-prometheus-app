@@ -19,3 +19,8 @@ http://localhost:3000/
 
 ## exposed app endpoint
 http://localhost:8080/customMetric
+
+
+## Configuring prometheus.yml 
+Exec into the .yml  `cd /etc/prometheus/`
+`vi prometheus.yml`

@@ -1,14 +1,14 @@
 package com.example.springbootprometheusapp.models;
 
 public class AgentCounter {
-    private int agentsLoggedIn;
-    private int agentsLoggedOut;
-    private int agentsReady;
-    private int agentsNotReady;
-    private int agentsPending;
+    private Integer agentsLoggedIn;
+    private Integer agentsLoggedOut;
+    private Integer agentsReady;
+    private Integer agentsNotReady;
+    private Integer agentsPending;
 
-    public AgentCounter(int agentsLoggedIn, int agentsLoggedOut, int agentsReady, int agentsNotReady,
-                        int agentsPending) {
+    public AgentCounter(Integer agentsLoggedIn, Integer agentsLoggedOut, Integer agentsReady, Integer agentsNotReady,
+                        Integer agentsPending) {
         this.agentsLoggedIn = agentsLoggedIn;
         this.agentsLoggedOut = agentsLoggedOut;
         this.agentsReady = agentsReady;
@@ -16,43 +16,43 @@ public class AgentCounter {
         this.agentsPending = agentsPending;
     }
 
-    public int getAgentsLoggedIn() {
+    public Integer getAgentsLoggedIn() {
         return agentsLoggedIn;
     }
 
-    public void setAgentsLoggedIn(int agentsLoggedIn) {
+    public void setAgentsLoggedIn(Integer agentsLoggedIn) {
         this.agentsLoggedIn = agentsLoggedIn;
     }
 
-    public int getAgentsLoggedOut() {
+    public Integer getAgentsLoggedOut() {
         return agentsLoggedOut;
     }
 
-    public void setAgentsLoggedOut(int agentsLoggedOut) {
+    public void setAgentsLoggedOut(Integer agentsLoggedOut) {
         this.agentsLoggedOut = agentsLoggedOut;
     }
 
-    public int getAgentsReady() {
+    public Integer getAgentsReady() {
         return agentsReady;
     }
 
-    public void setAgentsReady(int agentsReady) {
+    public void setAgentsReady(Integer agentsReady) {
         this.agentsReady = agentsReady;
     }
 
-    public int getAgentsNotReady() {
+    public Integer getAgentsNotReady() {
         return agentsNotReady;
     }
 
-    public void setAgentsNotReady(int agentsNotReady) {
+    public void setAgentsNotReady(Integer agentsNotReady) {
         this.agentsNotReady = agentsNotReady;
     }
 
-    public int getAgentsPending() {
+    public Integer getAgentsPending() {
         return agentsPending;
     }
 
-    public void setAgentsPending(int agentsPending) {
+    public void setAgentsPending(Integer agentsPending) {
         this.agentsPending = agentsPending;
     }
 
